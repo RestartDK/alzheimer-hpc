@@ -1,0 +1,1 @@
+# Here we want to put all the steps of installing the software to run our notebooks in an isolated environment so when people come to our repo they can just run the container instead of all the complicated setup!
