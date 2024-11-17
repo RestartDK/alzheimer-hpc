@@ -13,4 +13,3 @@ gmx solvate -cp ./data/reference/box.gro -cs ./data/reference/spc216.gro -o ./da
 
 # 4. Add ions
 gmx grompp -f ./data/input/ions.mdp -c .data/reference/solvated.gro -p .data/reference/topol.top -o .data/reference/ions.tpr
-echo "13" | gmx genion -s .data/reference/ions.tpr -o .data/reference/ionized.gro -p .data/reference/topol.top -pname NA -nname CL -neutral
